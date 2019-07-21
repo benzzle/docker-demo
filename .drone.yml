@@ -24,17 +24,17 @@ pipeline:
       # - 'docker push registry.cn-beijing.aliyuncs.com/panda-docker-test/one'
     when: 
       branch: master   
-  # rancher-online:
-  #   image: peloton/drone-rancher
-  #   url: 'https://rancher.11vx.cn'
-  #   access_key: 3EF24976056855E0B7A5
-  #   secret_key: mQfZhBqbET55iy9MPbobmk74MphKHqSysMFY73ci
-  #   service: app/app1
-  #   docker_image: 'registry.cn-beijing.aliyuncs.com/my_docker_test_01/docker_test_02'
-  #   start_first: false
-  #   confirm: true
-  #   timeout: 300 
-  #   when:
-  #     branch: master 
+  rancher-online:
+    image: peloton/drone-rancher
+    url: 'https://rancher.11vx.cn'
+    access_key: 36FFD605D1F971A7F2F4
+    secret_key: o1WsYeJQQsJBp9HUTW8R3hdu5gdCfZuyAXnQZvBx
+    service: app/app1
+    docker_image: 'registry.cn-beijing.aliyuncs.com/my_docker_test_01/docker_test_02'
+    start_first: false
+    confirm: true
+    timeout: 300 
+    when:
+      branch: master 
 
   
