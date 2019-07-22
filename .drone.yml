@@ -27,8 +27,8 @@ pipeline:
   rancher-online:
     image: peloton/drone-rancher
     url: 'https://rancher.11vx.cn'
-    access_key: 36FFD605D1F971A7F2F4
-    secret_key: o1WsYeJQQsJBp9HUTW8R3hdu5gdCfZuyAXnQZvBx
+    access_key: 26783B1A95A350CD9C19
+    secret_key: Bu7zv15PSJTN7kkcV5psqjLCtQgrnYRTjf3GhjV5
     service: app/app1
     docker_image: 'registry.cn-beijing.aliyuncs.com/my_docker_test_01/docker_test_02'
     start_first: false
